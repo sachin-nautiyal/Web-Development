@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Story Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Story</h1>
+    <form>
+        <div>
+            <label for="name">Enter the customer name:</label>
+            <input type="text" id="name" name="name">
+        </div>
+        <div>
+            <label for="us" id="us">US</label>
+            <input type="radio" value="us" name="country" id="Us" checked>
+            <label for="us" id="UK">UK</label>
+            <input type="radio" value="uk" name="country" id="Uk">
+         </div>
+         <div>
+            <button type="button" class="randomize">Generate random story</button>
+         </div>
+         <p class="story"></p>
+    </form>
+</body>
+</html>

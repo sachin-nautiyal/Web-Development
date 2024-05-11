@@ -1,0 +1,25 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+h1{
+    text-align:center;
+    margin:10px;
+    font-size:3rem;
+}
+form{
+    font-size:larger;
+    font-weight: bold;
+    margin:15px;
+}
+form div{
+    margin:10px;
+}
+.story{
+    background:#ffc125;
+    color:#5e2612;
+    padding:10px;
+    visibility:hidden;
+}
+
